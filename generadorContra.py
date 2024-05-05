@@ -9,7 +9,7 @@ def solicitarLongitud():
 
 def validador(longitud):
     while longitud < 8:
-        longitud = int(input("La contraseña debe tener al menos 8 caracteres: "))
+        longitud = int(input("La contraseña debe tener al menos 8 caracteres.\nIngresala de nuevo por favor: "))
     return longitud
 
 
