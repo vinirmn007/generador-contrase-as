@@ -3,7 +3,7 @@ import random
 caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,-_#/|@&%$()=?¿¡![]"
 
 def solicitarLongitud():
-    longitud = int(input("Ingresa la longitud para tu congraseña: "))
+    longitud = int(input("Ingresa la longitud para tu contraseña: "))
     longitud = validador(longitud)
     return longitud
 
